@@ -1,0 +1,68 @@
+.type-attack-container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.type-attack-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.type-attack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.type-attack-block {
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.type-attack-block2 {
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.type-attack-subtitle {
+    font-size: 20px;
+    color: #4A90E2;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.type-attack-description {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.type-attack-image {
+    max-width: 100%;
+    height: 40%;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

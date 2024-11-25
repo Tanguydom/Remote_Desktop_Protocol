@@ -1,0 +1,62 @@
+/* Navbar specific styles */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Assure que la navbar reste au-dessus des autres éléments */
+}
+
+.navbar__logo {
+    width: 70px;
+    height: 50px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #000;
+}
+
+/* Styles for navbar links */
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 100px 100px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #4A90E2;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Styles for small screens */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-link {
+        padding: 10px;
+        color: #333;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        background-color: #ffffff;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}

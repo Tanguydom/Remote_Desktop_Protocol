@@ -1,0 +1,44 @@
+
+
+.security-container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 1300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.security-block-container {
+    background-color: #ffffff; /* White background for blocks */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.security-title {
+    text-align: center;
+    font-size: 22px;
+    color: #4A90E2;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.security-block {
+    margin-bottom: 20px;
+}
+
+.security-block-title {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.security-description {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+}

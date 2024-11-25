@@ -1,0 +1,110 @@
+.rdp-document {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 1300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.rdp-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.rdp-subtitle {
+    font-size: 20px;
+    color: #4A90E2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.rdp-paragraph {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.rdp-image {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rdp-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.rdp-block {
+    flex: 1;
+    min-width: 300px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.rdp-block-title {
+    text-align: center;
+    font-size: 18px;
+    color: #4A90E2;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.rdp-list {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.rdp-list li {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+/* Button styles */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rdp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4A90E2;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.rdp-button:hover {
+    background-color: #3a7bc1;
+}

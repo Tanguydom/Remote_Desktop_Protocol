@@ -1,0 +1,12 @@
+/* Le conteneur principal occupe toute la hauteur de l'écran */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% de la hauteur de l'écran */
+}
+
+/* La partie content prend tout l'espace disponible entre le header et le footer */
+.app__content {
+  flex: 1; /* Prend l'espace disponible entre header et footer */
+  padding: 20px; /* Optionnel : ajoute de l'espace autour du contenu */
+}

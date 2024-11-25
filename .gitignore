@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/*
+
+# IntelliJ IDEA
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
