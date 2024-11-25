@@ -21,7 +21,7 @@ git clone https://github.com/Tanguydom/Fundamentals_Security_Communications.git
 Use the `cd ` command to enter in the repository
 
 ```bash
-cd Fundamentals_Security_Communications
+cd Remote_Desktop_Protocol
 ```
 
 ### 3. Install NPM
