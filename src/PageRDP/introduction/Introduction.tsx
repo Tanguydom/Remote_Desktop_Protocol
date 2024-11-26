@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import rdpImage from '../../assets/images/image1.avif';
+import rdpImage from '../../assets/images/diagram.png';
 import './Introduction.css';
 
 const Introduction: React.FC = () => {

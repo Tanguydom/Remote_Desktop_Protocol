@@ -26,7 +26,7 @@ cd Remote_Desktop_Protocol
 
 ### 3. Install NPM
 
-Use the link below to download 'npm'
+Use the link below to download 'npm' and restart your camputer
 
 ```bash
 https://nodejs.org/
