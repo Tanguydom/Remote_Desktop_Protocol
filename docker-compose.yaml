@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" # Vous pouvez modifier le port si nécessaire
+    volumes:
+      - .:/app      # Montez le dossier de projet pour un rechargement à chaud
+      - /app/node_modules # Empêchez le conflit des node_modules locaux
+    environment:
+      - NODE_ENV=development # Définir l'environnement
+    stdin_open: true
+    tty: true
