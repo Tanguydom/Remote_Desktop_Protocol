@@ -4,10 +4,6 @@ This project demonstrates the security vulnerabilities of the Remote Desktop Pro
 
 ---
 
-## How to Set Up and Run the Project
-
-Follow the steps below to set up and run the project locally:
-
 ### 1. Clone the Repository
 
 Use the `git clone` command to download the project repository to your local machine:
@@ -16,46 +12,10 @@ Use the `git clone` command to download the project repository to your local mac
 git clone https://github.com/Tanguydom/Fundamentals_Security_Communications.git
 ```
 
-### 2. Go to the repository
-
-Use the `cd ` command to enter in the repository
-
+### 2. Access to the web Site 
+we hosted the site in the cloud so you can access it easily
 ```bash
-cd Remote_Desktop_Protocol
-```
-
-### 3. Install NPM
-
-Use the link below to download 'npm' and restart your camputer
-
-```bash
-https://nodejs.org/
-```
-
-### 4. Vérification
-
-After installation, verify that npm is correctly installed by running the following command:
-
-```bash
-npm -v
-```
-
-### 5. Install Dependencies
-
-Install the project dependencies by running the following command:
-```bash
-npm install
-```
-
-### 6. Start the Development Server
-
-To start the development server and view the project, use the following command:
-```bash
-npm start
-```
-The server will start, and the application will open in your default web browser at:
-```bash
-http://localhost:3000
+http://51.210.159.5:3000/
 ```
 
 
